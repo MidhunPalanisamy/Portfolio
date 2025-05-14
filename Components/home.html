@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./CSS/home.css">
+</head>
+<body>
+    <script>
+        document.body.addEventListener('animationend', function (e) {
+            if (e.animationName === 'dragon-float') {
+                document.body.classList.add('dragon-move');
+            }
+        });
+    </script>
+    <img class="img-man" src="../Assets/man.png" alt="Man"/>
+    <img class="img-spl" src="../Assets/bg-splash.png" alt="spl"/>
+    <p class="nm">MIDHUN PALANISAMY</p>
+</body>
+</html>
