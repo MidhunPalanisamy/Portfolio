@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+@keyframes dragon-float {
+    from {
+        background-position: center -690px;
+    }
+    to {
+        background-position: center -120px;
+    }
+}
+
+@keyframes dragon-movement {
+    from {
+        background-position: center -120px; 
+    }
+    to {
+        background-position: center -150px;
+    }
+}
+
+.img-man{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 480px;
+    z-index: 3;
+}
+
+.img-spl{
+    position: absolute;
+    bottom: 0px;
+    left: 49%;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 130px;
+    z-index: 0;
+    opacity: 50%;
+}
+
+.nm{
+    font-family: 'Crimson Text', serif;
+    font-size: 55px;
+    font-weight: bold;
+    background: linear-gradient(to right, #31323d, #5c5d60);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    z-index: 3;
+}
+
+.git {
+    position: absolute;
+    top: 40%;
+    left: 80px;
+    z-index: 10;
+}
+
+.Ldn{
+    position: absolute;
+    top: 40%;
+    left: 150px;
+    z-index: 10;
+}
